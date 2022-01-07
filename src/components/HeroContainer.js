@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaDiscord, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const HeroContainer = () => {
   return (
@@ -14,9 +15,25 @@ const HeroContainer = () => {
         <button className='rounded p-2 shadow-md  shadow-indigo-500/40   w-1/3 mt-12 text-white text-lg font-semibold bg-gradient-to-r from-bluecolor via-purple-500 to-pinktext'>
           Become a Fan
         </button>
+        <div className='flex w-1/3 justify-start p-4 '>
+          <a href='https://discord.gg/tzmgUWKK'>
+            <FaDiscord className='mr-2' />
+          </a>
+          <a href='https://twitter.com/fandomdao'>
+            <FaTwitter className='mr-2' />
+          </a>
+          <a href='https://twitter.com/fandomdao'>
+            <FaGithub className='mr-2' />
+          </a>
+        </div>
       </div>
       <div>
-        <img src={require('../assets/NFT.jpg')} alt='NFT' width={300} height={500} />
+        <img
+          src={require('../assets/NFT.jpg')}
+          alt='NFT'
+          width={300}
+          height={500}
+        />
       </div>
     </div>
   );
