@@ -7,8 +7,9 @@ const Header = () => {
       <div className='flex justify-between space-x-8'>
         <a href='#home' className='underline'>Home</a>
         <a href='#nft'>NFTs</a>
-        <a href='#contact'>Contact</a>
-        <a href="#about">About us</a>
+        <a href="#about">About</a>
+        <a href='#contact'>Contact us</a>
+        
       </div>
       <div>
         <button className='text-white font-semibold rounded p-2  bg-gradient-to-r from-bluecolor via-purple-500 to-pinktext'>Connect Wallet</button>

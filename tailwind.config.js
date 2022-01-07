@@ -5,7 +5,8 @@ module.exports = {
       colors: {
         bgcolor: '#0A111A',
         pinktext: '#D53F86',
-        bluecolor:"#44318D"
+        bluecolor:"#44318D",
+        darkgray: '#1E2342',
       },
     },
   },
