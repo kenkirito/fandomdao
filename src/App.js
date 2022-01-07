@@ -4,6 +4,8 @@ import Header from './components/Header';
 import HeroContainer from './components/HeroContainer';
 import Sidebar from './components/Sidebar';
 import Fan from './components/Fan';
+import Reachout from './components/Reachout';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header/>
       <HeroContainer/>
       <Fan/>
+      <Reachout/>
+      <Footer/>
       {/* <Sidebar/> */}
     </div>
   );

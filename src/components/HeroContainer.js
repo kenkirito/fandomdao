@@ -33,6 +33,7 @@ const HeroContainer = () => {
           alt='NFT'
           width={300}
           height={500}
+          className='border-2 border-pinktext rounded-md'
         />
       </div>
     </div>
