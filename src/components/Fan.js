@@ -4,7 +4,7 @@ const Fan = () => {
   return (
     <div className='flex flex-col w-full justify-center items-center overflow-hidden mt-8'>
       <h1 className='font-extrabold text-4xl text-white'>
-        How to Become a <span className='text-pinktext'>Fan</span>
+        How to Become a <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Fan</span>
       </h1>
       <div className='flex justify-evenly gap-x-4  text-left p-8'>
         <div className='bg-darkgray flex rounded-lg flex-col w-1/4 p-4 border-2 border-bluecolor'>

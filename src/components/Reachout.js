@@ -24,10 +24,10 @@ const Reachout = () => {
       );
   };
   return (
-    <div className=' h-96 p-4 mt-8 flex flex-col gap-8 justify-center items-center'>
+    <div id="contact" className=' h-96 p-4 mt-8 flex flex-col gap-8 justify-center items-center'>
       <h1 className='font-extrabold text-4xl text-white'>
         Reach out to us if you are an{' '}
-        <span className='text-pinktext'>Artist</span>
+        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Artist</span>
       </h1>
 
       <form name='contact_form'
